@@ -1,0 +1,28 @@
+if ($?prompt) then
+	umask 037
+	source ~/.complete.tcsh
+	setenv EDITOR /usr/local/bin/vim
+	setenv PAGER /usr/bin/less
+	setenv LANG en_US.ISO8859-15
+	setenv MM_CHARSET ISO-8859-15
+	setenv BLOCKSIZE M
+	setenv EDITOR vim
+	set history = 100
+	set filec
+	set prompt = "%n\[%!\] %~\# "
+
+	alias .. cd ..
+	alias ... cd ../..
+	alias ll ls -lGF
+	alias ls ls -G
+	alias la ls -a
+	alias so source ~/.tcshrc
+	alias e $EDITOR
+	alias l $PAGER
+	alias h history 25
+	alias j jobs
+	alias g git
+	alias off shutdown -p now
+
+	calendar -f ~/calendar
+endif
