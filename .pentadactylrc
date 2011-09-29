@@ -1,0 +1,3 @@
+set defsearch=sg
+set complete=s
+set guioptions=s
