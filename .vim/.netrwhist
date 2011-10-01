@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/usr/home/chronos/code/c/rss-parser'
+let g:netrw_dirhist_2='/var/www/fotoalbom/views'
+let g:netrw_dirhist_3='/var/www'
+let g:netrw_dirhist_4='/var/www/fotoalbom/views'
+let g:netrw_dirhist_5='/var/www/fotoalbom/views/gallery'
+let g:netrw_dirhist_6='/usr/home/chronos/code/c/pipefun'
+let g:netrw_dirhist_7='/usr/home/chronos/tmp/foo'
+let g:netrw_dirhist_8='/var/www/fotoalbom'
